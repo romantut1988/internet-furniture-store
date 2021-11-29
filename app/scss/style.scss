@@ -41,3 +41,13 @@
   }
 
 }
+
+.footer {
+  &__content {
+    background: #DFDFDF;
+  }
+  &__copyright {
+    background-color: $title;
+  }
+
+}
