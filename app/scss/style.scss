@@ -45,12 +45,13 @@
 .footer {
   &__content {
     background: #DFDFDF;
+    padding: 60px 0 80px;
   }
   &__copyright {
     background-color: $title;
     color: #A1A1A1;
     text-align: center;
-    padding: 42px 10px 41px;
+    padding: 42px 15px 41px;
   }
 
 }
