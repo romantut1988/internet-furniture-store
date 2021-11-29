@@ -15,6 +15,7 @@
   &__btn {
     background-color: transparent;
     border: none;
+    cursor: pointer;
   }
 
 }
@@ -33,6 +34,10 @@
     padding-left: 35px;
     padding-right: 45px;
   }
-
+  &__list-link {
+    @extend %title-font;
+    color: rgba(54, 56, 56, 0.9);
+    line-height: 22px;
+  }
 
 }
