@@ -181,8 +181,13 @@
   bottom: 0;
   max-width: 694px;
   width: 100%;
-  background-color: #fff;
+  background-color: #ffffff;
   padding-top: 40px;
+  box-shadow: -2px 3px 17px 0px #000;
+  transition: all .5s;
+  &.rightside-menu--close {
+    transform: translateX(500%);
+  }
   &__close {
     background-color: transparent;
     border: none;
