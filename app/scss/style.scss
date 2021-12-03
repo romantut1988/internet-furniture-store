@@ -371,4 +371,35 @@
     line-height: 28px;
     color: #707070;
   }
+
+}
+
+.decor {
+  padding: 172px 0 156px;
+  background-image: url(../images/decor-bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  &__title {
+    position: relative;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 80px;
+    color: $title;
+    padding-bottom: 22px;
+    margin-bottom: 22px;
+    max-width: 730px;
+    &::after {
+      content: '';
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      width: 200px;
+      height: 1px;
+      background: #6D7278;
+    }
+  }
+  &__text {
+    max-width: 540px;
+  }
+
 }
