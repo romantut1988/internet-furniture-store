@@ -606,6 +606,8 @@
   }
 
   &__items {
+    max-width: 1110px;
+    margin: 0 auto;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 30px;
