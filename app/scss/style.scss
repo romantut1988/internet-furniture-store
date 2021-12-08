@@ -724,6 +724,10 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top center;
+    min-height: 414px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
 }
