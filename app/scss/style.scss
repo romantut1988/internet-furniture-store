@@ -743,7 +743,7 @@
     left: 0;
     right: 0;
     background-image: url("../images/inspiration-bg.jpg");
-    height: 414px;
+    height: 362px;
     z-index: -1;
   }
   &__inner {
@@ -792,6 +792,11 @@
     padding-bottom: 14px;
     border-bottom: 2px solid #fff;
     border-radius: 4px;
+  }
+  &__line {
+    height: 2px;
+    border-radius: 4px;
+    background-color: $title;
   }
 
 }
