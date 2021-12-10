@@ -908,8 +908,10 @@
 }
 
 .contact-slider {
+  padding-bottom: 102px;
   &__link {
     position: relative;
+    margin-bottom: 20px;
     &:hover {
       .contact-slider__title {
         opacity: 1;
