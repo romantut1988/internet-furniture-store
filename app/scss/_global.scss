@@ -61,6 +61,26 @@ body {
 	}
 }
 
+.info-email {
+	position: relative;
+	display: inline-block;
+	font-weight: 600;
+	font-size: 14px;
+	color: $title;
+	margin-bottom: 22px;
+	padding-left: 30px;
+
+	&::before {
+		content: '';
+		position: absolute;
+		background-image: url("../images/envelope.svg");
+		top: 8px;
+		left: 0;
+		width: 16px;
+		height: 12px;
+	}
+}
+
 
 
 
