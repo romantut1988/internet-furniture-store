@@ -18,13 +18,11 @@
     border: none;
     cursor: pointer;
   }
-
 }
 
 .logo {
   margin: 0 auto;
 }
-
 
 .menu {
   padding-right: 15px;
@@ -59,7 +57,6 @@
       background-color: rgba($title, .7);
     }
   }
-
 }
 
 .footer {
@@ -1410,5 +1407,9 @@
     padding: 6px 12px;
     cursor: pointer;
   }
-
 }
+
+@import 'media';
+
+
+
