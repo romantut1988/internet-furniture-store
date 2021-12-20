@@ -27,6 +27,16 @@
       width: 380px;
     }
   }
+  .gallery {
+    &__items {
+      grid-gap: 10px;
+    }
+
+    &__btn {
+      margin: 0;
+      padding: 6px 10px;
+    }
+  }
 }
 
 @media (max-width: 840px) {
@@ -36,10 +46,12 @@
         height: 100%;
       }
     }
+
     &__slider-title {
       font-size: 44px;
       line-height: 54px;
     }
+
     &__slider-img {
       height: 540px;
     }
@@ -48,9 +60,10 @@
     grid-template-columns: repeat(2, 1fr);
   }
   .works-path {
-      &__item {
-        width: 350px;
-      }
+    &__item {
+      width: 350px;
+    }
+
     &__item--production {
       margin-left: 50px;
     }
@@ -108,6 +121,15 @@
       margin-left: 100px;
     }
   }
+  .gallery {
+    &__buttons {
+      display: grid;
+    }
+
+    &__btn {
+      margin-bottom: 10px;
+    }
+  }
 }
 
 @media (max-width: 650px) {
@@ -133,22 +155,27 @@
     &__item--measuring::before {
       display: none;
     }
+
     &__items-box {
       border-bottom: none;
     }
+
     &__item--measuring {
       margin-left: 0;
       padding-top: 0;
       padding-bottom: 38px;
-    } 
+    }
+
     &__items-box {
       border: none;
       flex-wrap: wrap;
     }
+
     &__item--production {
       margin-left: 0;
       order: 1;
     }
+
     &__item {
       width: 100%;
     }
@@ -220,35 +247,46 @@
     grid-template-columns: repeat(1, 1fr);
   }
   %title-font {
-      font-size: 28px;
-      line-height: 36px;
-    }
+    font-size: 28px;
+    line-height: 36px;
+  }
   .works-path {
-      &__item-title {
-        font-size: 16px;
-        line-height: 27px;
-      }
+    &__item-title {
+      font-size: 16px;
+      line-height: 27px;
     }
   }
+  .gallery {
+    &__items {
+      grid-template-columns: repeat(1, 1fr);
+    }
 
-  @media (max-width: 375px) {
-    .footer {
-      &__inner {
-        justify-content: space-between;
-      }
-
-      &__social {
-        margin-left: 0;
-      }
-
-      &__form {
-        display: block;
-      }
-
-      &__form-button {
-        width: 100%;
-        margin-left: 0;
-        margin-top: 10px;
-      }
+    &__item:first-child {
+      grid-column: 1;
+      grid-row: 1;
     }
   }
+}
+
+
+@media (max-width: 375px) {
+  .footer {
+    &__inner {
+      justify-content: space-between;
+    }
+
+    &__social {
+      margin-left: 0;
+    }
+
+    &__form {
+      display: block;
+    }
+
+    &__form-button {
+      width: 100%;
+      margin-left: 0;
+      margin-top: 10px;
+    }
+  }
+}
