@@ -144,6 +144,11 @@
       padding: 80px 0;
     }
   }
+  .inspiration {
+    &__images {
+      display: none;
+    }
+  }
 }
 
 @media (max-width: 650px) {
@@ -307,6 +312,16 @@
     &__item:first-child {
       grid-column: 1;
       grid-row: 1;
+    }
+  }
+  .inspiration {
+    &__item-text,
+    &__num {
+      font-size: 16px;
+      line-height: 23px;
+    }
+    &__item-text {
+      margin-right: 10px;
     }
   }
 }
