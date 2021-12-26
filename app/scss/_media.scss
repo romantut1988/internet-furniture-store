@@ -375,6 +375,11 @@
       line-height: 38px;
     }
   }
+  .blog-one {
+    &__link {
+      font-size: 0;
+    }
+  }
   .works-path {
     &__item-title {
       font-size: 16px;
@@ -437,5 +442,8 @@
   }
   .slick-dots li {
     margin: 0 1px;
+  }
+  .blog-one__item blockquote {
+    padding: 0 20px;
   }
 }
